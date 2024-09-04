@@ -8,3 +8,7 @@ cp .basrc ~/.bashrc
 # setup git
 chmod +x setup_git.sh
 ./setup_git.sh
+
+# setup fzf
+chmod +x setup_fzf.sh
+./setup_fzf.sh
