@@ -3,7 +3,7 @@
 # .bashrc should be removed so that it does not grow in size when
 # appending all the lines from the different configurations
 rm ~/.bashrc
-cp .basrc ~/.bashrc
+cp .bashrc ~/.bashrc
 
 # setup git
 chmod +x setup_git.sh
