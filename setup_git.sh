@@ -4,3 +4,6 @@ chmod +x ~/.git-completion.bash
 echo "if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi" >> ~/.bash_profile
+
+rm ~/.gitconfig
+cp .gitconfig ~/.gitconfig
